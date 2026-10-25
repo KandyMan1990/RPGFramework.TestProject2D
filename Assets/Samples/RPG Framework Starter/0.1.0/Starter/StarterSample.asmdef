@@ -1,0 +1,29 @@
+{
+    "name": "StarterSample",
+    "rootNamespace": "StarterSample",
+    "references": [
+        "RPGFramework.Audio",
+        "RPGFramework.Battle",
+        "RPGFramework.Battle.SharedTypes",
+        "RPGFramework.Core",
+        "RPGFramework.Core.SharedTypes",
+        "RPGFramework.DebugRoom.SharedTypes",
+        "RPGFramework.DI",
+        "RPGFramework.Field",
+        "RPGFramework.Field.SharedTypes",
+        "RPGFramework.Localisation",
+        "RPGFramework.Menu",
+        "RPGFramework.Menu.SharedTypes",
+        "RPGFramework.ModuleRouter",
+        "StarterSample.SplashScreen"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,33 @@
+using RPGFramework.Core.Data;
+using RPGFramework.Core.SaveData;
+using RPGFramework.Core.Settings;
+using RPGFramework.Localisation;
+
+namespace StarterSample
+{
+    /// <summary>The settings a first launch starts with, before the player has saved any.</summary>
+    internal sealed class StarterDefaultSettings : IDefaultSettings
+    {
+        private readonly ILocalisationService m_LocalisationService;
+
+        public StarterDefaultSettings(ILocalisationService localisationService)
+        {
+            m_LocalisationService = localisationService;
+        }
+
+        void IDefaultSettings.Populate(ISettingsService settingsService)
+        {
+            ConfigData_V1 configData = new ConfigData_V1
+                                       {
+                                           MusicVolume        = 1f,
+                                           SfxVolume          = 1f,
+                                           BattleMessageSpeed = 0.5f,
+                                           FieldMessageSpeed  = 0.5f
+                                       };
+
+            configData.SetLanguage(m_LocalisationService.CurrentLanguage);
+
+            settingsService.SetSection(FrameworkSettingsSections.CONFIG_DATA, new SaveSection<ConfigData_V1>(Versions.GLOBAL_CONFIG, configData));
+        }
+    }
+}

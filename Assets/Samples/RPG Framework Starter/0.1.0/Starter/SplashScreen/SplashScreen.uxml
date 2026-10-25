@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="SplashScreen.uss"/>
+    <ui:VisualElement name="Root" class="root">
+        <ui:Label text="RPG Framework" name="TitleLabel" class="title"/>
+    </ui:VisualElement>
+</ui:UXML>

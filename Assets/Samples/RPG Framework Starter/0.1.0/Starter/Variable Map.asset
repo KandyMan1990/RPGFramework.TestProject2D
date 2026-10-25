@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35a53cab365904129b0d6ce4f53c6c89, type: 3}
+  m_Name: Variable Map
+  m_EditorClassIdentifier: RPGFramework.Core::RPGFramework.Core.Memory.VariableMapAsset
+  m_Variables:
+  - m_Id: 1
+    m_Name: CurrentField
+    m_Bank: 0
+    m_Width: 8
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 0
+    m_Description: The field the player is in. Its default is the field a new game begins in
+    m_DefaultValue: 16632369605699430745
+    m_ElementDefaults: []
+  - m_Id: 2
+    m_Name: CurrentSpawn
+    m_Bank: 0
+    m_Width: 5
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 8
+    m_Description: The spawn point the player entered the current field by. Its default is where a new game begins
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 3
+    m_Name: PlayerPositionX
+    m_Bank: 0
+    m_Width: 9
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 12
+    m_Description: Where the player stood when the game was saved. Its default is not used
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 4
+    m_Name: PlayerPositionY
+    m_Bank: 0
+    m_Width: 9
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 16
+    m_Description: Where the player stood when the game was saved. Its default is not used
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 5
+    m_Name: PlayerPositionZ
+    m_Bank: 0
+    m_Width: 9
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 20
+    m_Description: Where the player stood when the game was saved. Its default is not used
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 6
+    m_Name: PlayerFacing
+    m_Bank: 0
+    m_Width: 9
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 24
+    m_Description: Which way the player faced when the game was saved, in degrees around the field's up axis. Its default is not used
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 7
+    m_Name: GameOverField
+    m_Bank: 1
+    m_Width: 8
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 0
+    m_Description: The field a game over sends the player to. Only its default is used
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 8
+    m_Name: GameOverSpawn
+    m_Bank: 1
+    m_Width: 5
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 8
+    m_Description: The spawn point the player arrives at in the game-over field. Only its default is used
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 9
+    m_Name: ScreenFade
+    m_Bank: 0
+    m_Width: 2
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 28
+    m_Description: 'Where a script left the field''s screen: clear, faded out, or a colour taken from it or added. Its default, 0, is clear'
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 10
+    m_Name: ScreenFadeTransition
+    m_Bank: 0
+    m_Width: 8
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 32
+    m_Description: The transition a faded-out screen is covered by. Its default is not used
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 11
+    m_Name: ScreenColour
+    m_Bank: 0
+    m_Width: 5
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 40
+    m_Description: The colour taken from or added to the field's screen. Its default is not used
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 12
+    m_Name: BattleMode
+    m_Bank: 0
+    m_Width: 4
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 30
+    m_Description: The flags every random battle is fought with, and whether losing a battle or a countdown running out ends the game. Its default is a new game's
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 13
+    m_Name: CurrentModule
+    m_Bank: 0
+    m_Width: 2
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 29
+    m_Description: The module the playthrough is in. Its default is the module a new game begins in
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 14
+    m_Name: LoadedFromSave
+    m_Bank: 1
+    m_Width: 0
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 12
+    m_Description: Set when a save is loaded, and cleared once the player is back where it was made. Its default is not used
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 15
+    m_Name: SaveEnabled
+    m_Bank: 1
+    m_Width: 0
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 13
+    m_Description: 'Whether the player can save from the party menu. Its default is the game''s policy: false to save only where a script allows it, true to save anywhere'
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 16
+    m_Name: PlayTime
+    m_Bank: 0
+    m_Width: 6
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 44
+    m_Description: How long the playthrough has been played, in whole seconds. Counted by the framework
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 17
+    m_Name: LocationName
+    m_Bank: 0
+    m_Width: 8
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 48
+    m_Description: The place the player is in, as the hash of its localisation key. Written by the module the player is in
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 18
+    m_Name: BattleMusic
+    m_Bank: 0
+    m_Width: 8
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 56
+    m_Description: The track every battle plays, as its music asset's name hash, until a script sets another. Its default is a new game's; zero plays none
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 19
+    m_Name: MusicVolume
+    m_Bank: 0
+    m_Width: 9
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 64
+    m_Description: The volume the music plays at, 0 to 1, as the scripts last set it. Its default is a new game's
+    m_DefaultValue: 1065353216
+    m_ElementDefaults: []
+  m_LastVariableId: 19

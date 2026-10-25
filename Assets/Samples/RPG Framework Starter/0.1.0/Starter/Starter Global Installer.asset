@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c6da31afcd141a9b749b2d97a6efde, type: 3}
+  m_Name: Starter Global Installer
+  m_EditorClassIdentifier: StarterSample::StarterSample.StarterGlobalInstaller
+  m_MusicProvider: {fileID: 11400000, guid: 42c212a36f99b4decb73340e223464be, type: 2}
+  m_MusicMixerGroups:
+  - {fileID: 5533237714984791865, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -5462444277202327870, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 2815022773721639946, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -2292960641392828784, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 8810228782129667432, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 7009789329004750729, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 6707794879640224735, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -1533153595537037862, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 8830170600578570995, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 5700844537237884987, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 759269581511497727, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -2431118590460908029, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 7947891332530029993, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 6757427146511150931, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 654315984749902392, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -5762118300419045792, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  m_SfxProvider: {fileID: 11400000, guid: f8c85b1fd6bcb45ba8cbaa9aa78543d1, type: 2}
+  m_SfxMixerGroups:
+  - {fileID: 3788437536805461070, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 9150971356237200897, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -3256080563322228390, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 8380651161066523644, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 3960441516800611976, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -8952373633363486170, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -4348508602182298243, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -3675934638557616243, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 2099072246291878144, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -1255193566202207564, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -4074897414744005150, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -2524400293351595422, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 2806540502906475373, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -1935413842707860392, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: -5307952389386084171, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  - {fileID: 3604866634774007751, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  m_DialogueWindowUIProvider: {fileID: 11400000, guid: af7360a2d35934d8ab83fdf29e2b64ae, type: 2}
+  m_VariableMap: {fileID: 11400000, guid: f84083825a0db41949a50a8ab1ce5a38, type: 2}
+  m_TransitionConfig: {fileID: 11400000, guid: 18a059db258bd414cbbe25c8154e13d0, type: 2}
+  m_TransitionDatabase: {fileID: 11400000, guid: 64668a1fc1f6b462f892f73fec94c548, type: 2}
+  m_ModuleRouterConfig: {fileID: 11400000, guid: 1b2612e96652347a4b1d29a23f486ab4, type: 2}
