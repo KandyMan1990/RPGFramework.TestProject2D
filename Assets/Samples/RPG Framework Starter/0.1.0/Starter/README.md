@@ -18,17 +18,17 @@ As with a new project from a template, a few steps come first:
    Field Sample's `FieldModule`; both scenes' input adapters already use the Starter's actions.
 2. **Install the menu's text**: RPG Framework > Menu > Install Sample Text. The game reads its text from
    `StreamingAssets` as it starts, and a sample cannot put files there itself.
-3. **Export the field**: RPG Framework > Field Designer Window, **Add New Field Entry**, its **Field Prefab** the 2D
-   Field Sample's `SampleField`, then **Export Runtime Data** into the 2D Field Sample's folder, namespace
-   `RPGFramework.Field.Sample2D`. It builds the field's bundle into `StreamingAssets` and writes the sample's
-   `FieldDatabase.cs` again.
+3. **Export the fields**: RPG Framework > Field Designer Window, **Add New Field Entry** for each of the 2D Field
+   Sample's fields, its **Field Prefab** `SampleField` and then `SampleTileField`, then **Export Runtime Data** into the
+   2D Field Sample's folder, namespace `RPGFramework.Field.Sample2D`. It builds the fields' bundles into
+   `StreamingAssets` and writes the sample's `FieldDatabase.cs` again.
 4. **Make the Starter's actions the project's**: Edit > Project Settings > Input System Package, **Project-wide
    Actions**: `Starter Input Actions`. The menus move between their buttons with its **UI** map.
 5. **List the scenes in the build**: File > Build Profiles, **Scene List**: `Entry Point` first, then
    `SplashScreenModule`, `MenuModule` and `FieldModule`. A module's scene is loaded by name, so one left out fails as
    it loads.
 6. **Open `Entry Point` and press Play**: the splash screen, then the title. **New Game** begins in `SampleField`,
-   which the variable map's `CurrentField` names.
+   which the variable map's `CurrentField` names; its gateway on the right leads to `SampleTileField`.
 
 ---
 
