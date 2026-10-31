@@ -277,4 +277,15 @@ MonoBehaviour:
     m_Description: How fast the field's dialogue appears, 0 to 1, 0.5 as authored. Its default is a first launch's
     m_DefaultValue: 1056964608
     m_ElementDefaults: []
-  m_LastVariableId: 24
+  - m_Id: 25
+    m_Name: Money
+    m_Bank: 0
+    m_Width: 6
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 68
+    m_Description: The party's money. Its default is what a new game starts with
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  m_LastVariableId: 25
