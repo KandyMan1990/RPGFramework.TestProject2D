@@ -40,7 +40,6 @@ As with a new project from a template, a few steps come first:
 | `Starter Global Installer` | Everything the framework asks the game for, and the stores the modules share |
 | `StarterModuleDatabase`, `StarterSceneDatabase` | Each module's id to the interface its scene binds, and that interface to the scene's name |
 | `StarterModuleRouter` | The framework's routes, from `DefaultModuleRouter`, and the splash screen's: on to the title |
-| `StarterDefaultSettings` | The settings a first launch starts from |
 | `Variable Map` | Every variable a framework package requires, with its default |
 | `Starter Input Actions` | A **Game** map, one action per control slot, and a **UI** map for the menus |
 | `Transitions/` | The transition config and database, using Core's fade, and the router's config |

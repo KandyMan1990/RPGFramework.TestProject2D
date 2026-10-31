@@ -9,7 +9,6 @@ using RPGFramework.Core.Audio;
 using RPGFramework.Core.Databases;
 using RPGFramework.Core.Dialogue.UI;
 using RPGFramework.Core.Memory;
-using RPGFramework.Core.Settings;
 using RPGFramework.Core.SharedTypes;
 using RPGFramework.Core.Transitions;
 using RPGFramework.DI;
@@ -91,7 +90,6 @@ namespace StarterSample
             container.BindSingleton<IModuleDatabase, StarterModuleDatabase>();
             container.BindSingleton<ISceneDatabase, StarterSceneDatabase>();
             container.BindSingleton<IModuleRouter, StarterModuleRouter>();
-            container.BindSingleton<IDefaultSettings, StarterDefaultSettings>();
 
             // The modules' shared stores, used before the module that owns each has loaded.
             container.BindSingleton<IFieldArgsStore, FieldArgsStore>();
