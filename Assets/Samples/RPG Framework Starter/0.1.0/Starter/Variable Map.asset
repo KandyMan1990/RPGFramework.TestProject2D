@@ -288,4 +288,48 @@ MonoBehaviour:
     m_Description: The party's money. Its default is what a new game starts with
     m_DefaultValue: 0
     m_ElementDefaults: []
-  m_LastVariableId: 25
+  - m_Id: 26
+    m_Name: CountdownX
+    m_Bank: 0
+    m_Width: 5
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 72
+    m_Description: Where the field shows the countdown, across, as SHOW_COUNTDOWN_TIMER last put it. Its default is not used
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 27
+    m_Name: CountdownY
+    m_Bank: 0
+    m_Width: 5
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 76
+    m_Description: Where the field shows the countdown, down, as SHOW_COUNTDOWN_TIMER last put it. Its default is not used
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 28
+    m_Name: Countdown
+    m_Bank: 0
+    m_Width: 6
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 80
+    m_Description: The countdown's seconds left, counted down whenever it is above zero. Set by scripts; its default is a new game's
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 29
+    m_Name: CountdownShown
+    m_Bank: 0
+    m_Width: 0
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 84
+    m_Description: Whether the countdown is on screen. Set by scripts; its default is a new game's
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  m_LastVariableId: 29
