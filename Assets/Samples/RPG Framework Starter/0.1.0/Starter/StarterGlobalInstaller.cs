@@ -89,6 +89,7 @@ namespace StarterSample
 
             container.BindSingleton<IModuleDatabase, StarterModuleDatabase>();
             container.BindSingleton<ISceneDatabase, StarterSceneDatabase>();
+            container.BindSingleton<IDefaultModuleRouter, DefaultModuleRouter>();
             container.BindSingleton<IModuleRouter, StarterModuleRouter>();
 
             // The modules' shared stores, used before the module that owns each has loaded.
