@@ -1,6 +1,9 @@
 using System.Threading.Tasks;
 using RPGFramework.Core;
 using RPGFramework.Core.SharedTypes;
+using RPGFramework.Menu.SharedTypes;
+using RPGFramework.Menu.SharedTypes.Constants;
+using RPGFramework.Menu.SharedTypes.Stores;
 using UnityEngine;
 
 namespace StarterSample.SplashScreen
@@ -9,11 +12,13 @@ namespace StarterSample.SplashScreen
     {
         private const float HOLD_SECONDS = 3f;
 
-        private readonly ICoreModule m_CoreModule;
+        private readonly ICoreModule    m_CoreModule;
+        private readonly IMenuArgsStore m_MenuArgsStore;
 
-        internal SplashScreenModule(ICoreModule coreModule)
+        internal SplashScreenModule(ICoreModule coreModule, IMenuArgsStore menuArgsStore)
         {
-            m_CoreModule = coreModule;
+            m_CoreModule    = coreModule;
+            m_MenuArgsStore = menuArgsStore;
         }
 
         Task IModule.OnEnterAsync(byte entry)
@@ -46,6 +51,8 @@ namespace StarterSample.SplashScreen
         {
             await Awaitable.WaitForSecondsAsync(HOLD_SECONDS);
 
+            // The menu module opens whichever menu it is given, as the field gives it the party menu.
+            m_MenuArgsStore.Set(new MenuArgs(MenuIds.Begin));
             m_CoreModule.RequestModuleChangeAsync(SplashScreenConstants.OUTCOME_FINISHED).FireAndForget();
         }
     }

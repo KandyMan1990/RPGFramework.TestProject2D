@@ -4,7 +4,8 @@
     "references": [
         "RPGFramework.Core",
         "RPGFramework.Core.SharedTypes",
-        "RPGFramework.DI"
+        "RPGFramework.DI",
+        "RPGFramework.Menu.SharedTypes"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
