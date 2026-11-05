@@ -3,7 +3,7 @@
     "name": "Starter Input Actions",
     "maps": [
         {
-            "name": "Game",
+            "name": "Player",
             "id": "f70b7058-fdbf-4faa-affc-0795f8a6a47c",
             "actions": [
                 {
@@ -16,7 +16,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Primary",
+                    "name": "Confirm",
                     "type": "Button",
                     "id": "87cac102-d4d2-4a84-b0aa-e6e8561334ec",
                     "expectedControlType": "",
@@ -25,7 +25,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Secondary",
+                    "name": "Cancel",
                     "type": "Button",
                     "id": "c5b30c13-569b-4d47-b6c2-4b44c22b8644",
                     "expectedControlType": "",
@@ -34,18 +34,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Tertiary",
+                    "name": "Menu",
                     "type": "Button",
                     "id": "c2bb5c7b-9067-4d3c-bd79-3e51cc805fd0",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Quaternary",
-                    "type": "Button",
-                    "id": "822bd8ae-4bd1-42b8-a5a0-ccc2296bcdb8",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -246,29 +237,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Primary",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "49bf7ea8-5fae-4968-82e2-79a6741e1ed6",
-                    "path": "<Keyboard>/enter",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Primary",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2d2f0d64-edd0-4128-b01b-f3250272a06c",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Primary",
+                    "action": "Confirm",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -279,7 +248,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Primary",
+                    "action": "Confirm",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -290,7 +259,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Secondary",
+                    "action": "Cancel",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -301,7 +270,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Secondary",
+                    "action": "Cancel",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -312,7 +281,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Secondary",
+                    "action": "Cancel",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -323,7 +292,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Tertiary",
+                    "action": "Menu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -334,29 +303,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Tertiary",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "41912261-0add-4547-8e4f-fb838292c4c7",
-                    "path": "<Keyboard>/r",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Quaternary",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "b89889f7-9db4-412f-8e73-5f8df57043c3",
-                    "path": "<Gamepad>/buttonWest",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Quaternary",
+                    "action": "Menu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -520,6 +467,15 @@
                     "name": "Cancel",
                     "type": "Button",
                     "id": "52111143-66c2-4b20-8adb-a7b6eac515a6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Delete",
+                    "type": "Button",
+                    "id": "fcf2d777-ee38-422e-a787-7e83b996c56f",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -717,28 +673,6 @@
                 },
                 {
                     "name": "",
-                    "id": "efa1cf83-d47b-4a46-84e6-2a27484c4954",
-                    "path": "<Keyboard>/enter",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Submit",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "bfa9de7f-b2d6-40da-bfad-b1b2dfeee03d",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Submit",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "578662a4-0aa8-4d4b-a981-c91797d96d8b",
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
@@ -833,6 +767,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "MiddleClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3328d221-b797-4cf5-8075-59205a9e79a2",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Delete",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1f325176-3864-470b-b34c-c62c6c6f76a2",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Delete",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

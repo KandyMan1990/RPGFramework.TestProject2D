@@ -41,7 +41,7 @@ As with a new project from a template, a few steps come first:
 | `StarterModuleDatabase`, `StarterSceneDatabase` | Each module's id to the interface its scene binds, and that interface to the scene's name |
 | `StarterModuleRouter` | The framework's routes, from `DefaultModuleRouter`, and the splash screen's: on to the title |
 | `Variable Map` | Every variable a framework package requires, with its default |
-| `Starter Input Actions` | A **Game** map, one action per control slot, and a **UI** map for the menus |
+| `Starter Input Actions` | A **Player** map for the field and battle — `Movement`, `Confirm`, `Cancel`, `Menu`, the shoulders and triggers, `Start` and `Select` — and the **UI** map the menus and UI Toolkit read, with the menus' `Delete`. Confirm is E or the pad's south button, Enter and Space left free |
 | `Transitions/` | The transition config and database, using Core's fade, and the router's config |
 | `Dialogue/` | The dialogue window, using Core's, and its text styles |
 | `Audio/` | Empty music and SFX providers, and a mixer with a group for each stem |
