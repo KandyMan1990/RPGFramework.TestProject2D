@@ -48,6 +48,7 @@ MonoBehaviour:
   - {fileID: -1935413842707860392, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
   - {fileID: -5307952389386084171, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
   - {fileID: 3604866634774007751, guid: 08b2a01566c8149c095f1c4c3359795c, type: 2}
+  m_SystemSoundConfig: {fileID: 11400000, guid: 89c56fea57cbe4a45a5d4931bd85bbc2, type: 2}
   m_DialogueWindowUIProvider: {fileID: 11400000, guid: af7360a2d35934d8ab83fdf29e2b64ae, type: 2}
   m_VariableMap: {fileID: 11400000, guid: f84083825a0db41949a50a8ab1ce5a38, type: 2}
   m_TransitionConfig: {fileID: 11400000, guid: 18a059db258bd414cbbe25c8154e13d0, type: 2}

@@ -42,6 +42,9 @@ namespace StarterSample
         private AudioMixerGroup[] m_SfxMixerGroups;
 
         [SerializeField]
+        private SystemSoundConfig m_SystemSoundConfig;
+
+        [SerializeField]
         private DialogueWindowUIProvider m_DialogueWindowUIProvider;
 
         [SerializeField]
@@ -76,8 +79,7 @@ namespace StarterSample
             container.BindSingletonFromInstance<IDebugMusicAssetProvider>(m_MusicProvider);
 #endif
 
-            container.BindSingletonFromInstance<IAudioIntentPlayer>(new SilentAudioIntentPlayer());
-
+            container.BindSingletonFromInstance<ISystemSoundConfig>(m_SystemSoundConfig);
             container.BindSingletonFromInstance<ITransitionConfig>(m_TransitionConfig);
             container.BindSingletonFromInstance<ITransitionDatabase>(m_TransitionDatabase);
             container.BindSingletonFromInstance<IModuleRouterConfig>(m_ModuleRouterConfig);

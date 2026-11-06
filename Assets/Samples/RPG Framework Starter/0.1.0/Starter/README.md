@@ -44,7 +44,7 @@ As with a new project from a template, a few steps come first:
 | `Starter Input Actions` | A **Player** map for the field and battle — `Movement`, `Confirm`, `Cancel`, `Menu`, the shoulders and triggers, `Start` and `Select` — and the **UI** map the menus and UI Toolkit read, with the menus' `Delete`. Confirm is E or the pad's south button, Enter and Space left free |
 | `Transitions/` | The transition config and database, using Core's fade, and the router's config |
 | `Dialogue/` | The dialogue window, using Core's, and its text styles |
-| `Audio/` | Empty music and SFX providers, and a mixer with a group for each stem |
+| `Audio/` | Empty music and SFX providers, a System Sound Config with every sound none, and a mixer with a group for each stem |
 | `SplashScreen/` | The splash screen module, in an assembly of its own |
 
 ---
@@ -53,9 +53,10 @@ As with a new project from a template, a few steps come first:
 
 - **A module of your own** joins both databases, under an id of its own, and its scene the build's scene list. The
   router decides what follows each of its outcomes.
-- **Sounds**: the Starter is silent. `SilentAudioIntentPlayer` plays nothing for what the menus and field ask for, and
-  the music and SFX providers are empty. Fill the providers (Create > RPG Framework > Audio) and bind an
-  `IAudioIntentPlayer` of your own that maps each intent to a sound.
+- **Sounds**: the Starter is silent. The music and SFX providers are empty, and `Audio/System Sound Config` sets the
+  sounds the menus, the field's questions and the debug room play — the cursor, confirm, cancel, error, new game, load
+  and save — to none. Fill the providers (Create > RPG Framework > Audio) and pick each system sound by name in the
+  config; no code is needed.
 - **Variables**: declare your game's in the `Variable Map`. When a framework package adds a required variable, **Add
   Missing Required Variables** in its inspector declares it.
 - **Text**: the menus' localisation keys are in the Menu Sample's installer. Replace them with your own spreadsheet's
