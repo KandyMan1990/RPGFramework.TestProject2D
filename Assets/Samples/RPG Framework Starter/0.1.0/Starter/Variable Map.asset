@@ -353,4 +353,15 @@ MonoBehaviour:
     m_Description: 'The player''s own bindings, set on the Controls page: a binding''s id and the control it is bound to instead. Its defaults are none'
     m_DefaultValue: 0
     m_ElementDefaults: []
-  m_LastVariableId: 30
+  - m_Id: 31
+    m_Name: MoneyMaximum
+    m_Bank: 1
+    m_Width: 6
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 16
+    m_Description: 'The most money the party can hold. Only its default is used: the game''s own limit, zero for none'
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  m_LastVariableId: 31
