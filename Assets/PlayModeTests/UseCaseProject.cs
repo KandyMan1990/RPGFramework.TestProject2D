@@ -14,6 +14,7 @@ namespace Test2D.PlayModeTests
         internal const string BATTLE_CANCEL  = "Player/Cancel";
         internal const string BATTLE_RESULT  = "UseCaseBattleResult";
         internal const string COUNTDOWN_LEFT = "UseCaseCountdownLeft";
+        internal const string ANSWER         = "UseCaseAnswer";
         internal const string GAME_OVER_FIELD = "GameOver";
 
         internal static Vector3 Up => Vector3.forward;

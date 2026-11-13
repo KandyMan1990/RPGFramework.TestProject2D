@@ -430,4 +430,15 @@ MonoBehaviour:
     m_Description: The countdown seconds a use case read (the 2D project use cases, item 35)
     m_DefaultValue: 0
     m_ElementDefaults: []
-  m_LastVariableId: 38
+  - m_Id: 39
+    m_Name: UseCaseAnswer
+    m_Bank: 1
+    m_Width: 2
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 33
+    m_Description: The answer a use case asked for (the 2D project use cases, item 35)
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  m_LastVariableId: 39

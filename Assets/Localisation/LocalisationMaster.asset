@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d462923d374abf45bf8104bbe84145a, type: 3}
+  m_Name: LocalisationMaster
+  m_EditorClassIdentifier: RPGFramework.Localisation.Editor::RPGFramework.Localisation.Editor.LocalisationMaster
+  Access: 0
+  SheetId: 1R9kxWgY2cfwkjbftb_JPVQAgiBG1UrCZM4ZOA-pAfNo
+  WebAppUrl: 
+  DefaultNamespace: Test2D.Localisation
+  DefaultKeysClassFolder: Assets/Localisation/Generated
+  Version: 1
+  SheetAssets:
+  - {fileID: 11400000, guid: 2e7c81b1c23f540e8990a960f31b8632, type: 2}
+  - {fileID: 11400000, guid: 85dbd33e25a8c4611b23f749457cdfaf, type: 2}
+  - {fileID: 11400000, guid: 921aeecf7322142b38986c755c6ce82a, type: 2}
+  - {fileID: 11400000, guid: 06404b4e1100e45d6bf8feafc7aa22c3, type: 2}
+  - {fileID: 11400000, guid: 5371a3b8c52164d5ba2bfebd0178d01a, type: 2}
+  - {fileID: 11400000, guid: db4a2ffbd57394fc3b3cc6ad5d932c09, type: 2}
+  - {fileID: 11400000, guid: e288839d3bf374509a781def424f6285, type: 2}
+  - {fileID: 11400000, guid: 2621c9b2ce5d44471b7e08005e48d117, type: 2}

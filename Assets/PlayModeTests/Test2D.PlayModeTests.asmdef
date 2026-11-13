@@ -8,6 +8,7 @@
         "RPGFramework.Field",
         "RPGFramework.Field.SharedTypes",
         "RPGFramework.Hashing",
+        "RPGFramework.Menu.SharedTypes",
         "RPGFramework.ModuleRouter",
         "Unity.InputSystem",
         "Unity.InputSystem.TestFramework",

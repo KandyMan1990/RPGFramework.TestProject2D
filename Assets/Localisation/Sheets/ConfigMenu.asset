@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8f647ff9eec994c97f47850de96982, type: 3}
+  m_Name: ConfigMenu
+  m_EditorClassIdentifier: RPGFramework.Localisation.Editor::RPGFramework.Localisation.Editor.LocalisationSheetAsset
+  GenerateKeysClass: 0
+  KeysClassFolderOverride: 
+  NamespaceOverride: 
+  m_Keys:
+  - ConfigMenu/Language_Title
+  - ConfigMenu/Language
+  - ConfigMenu/Controls
+  - ConfigMenu/Music_Volume
+  - ConfigMenu/Sfx_Volume
+  - ConfigMenu/Battle_Message_Speed
+  - ConfigMenu/Field_Message_Speed
+  - ConfigMenu/Controls_Keyboard
+  - ConfigMenu/Controls_Gamepad
+  - ConfigMenu/Controls_Reset
+  - ConfigMenu/Controls_Prompt
+  - ConfigMenu/Control_Confirm
+  - ConfigMenu/Control_Cancel
+  - ConfigMenu/Control_Menu
+  - ConfigMenu/Control_Delete
+  - ConfigMenu/Control_Up
+  - ConfigMenu/Control_Down
+  - ConfigMenu/Control_Left
+  - ConfigMenu/Control_Right
