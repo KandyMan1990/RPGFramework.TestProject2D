@@ -88,7 +88,7 @@ MonoBehaviour:
     m_LastFieldId: 0
     m_Offset: 0
     m_Description: The field a game over sends the player to. Only its default is used
-    m_DefaultValue: 0
+    m_DefaultValue: 2706410170469834045
     m_ElementDefaults: []
   - m_Id: 8
     m_Name: GameOverSpawn
@@ -408,4 +408,26 @@ MonoBehaviour:
     m_Description: The encounter the last random battle fought, which the next does not repeat where it can help it
     m_DefaultValue: 0
     m_ElementDefaults: []
-  m_LastVariableId: 36
+  - m_Id: 37
+    m_Name: UseCaseBattleResult
+    m_Bank: 1
+    m_Width: 2
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 32
+    m_Description: How the last battle a use case fought ended (the 2D project use cases, item 35)
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 38
+    m_Name: UseCaseCountdownLeft
+    m_Bank: 1
+    m_Width: 5
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 36
+    m_Description: The countdown seconds a use case read (the 2D project use cases, item 35)
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  m_LastVariableId: 38

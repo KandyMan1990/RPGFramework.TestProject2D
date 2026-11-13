@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4203bb979209643b4932f6abd5915372, type: 3}
+  m_Name: Battle Scene Installer
+  m_EditorClassIdentifier: Test2D.Battle::Test2D.Battle.BattleSceneInstaller
+  m_AudioProvider: {fileID: 11400000, guid: e10678becaacb41809c661e17d47df2c, type: 2}
+  m_Encounters: {fileID: 11400000, guid: fed243d2f12b3416b994c77811c532f6, type: 2}

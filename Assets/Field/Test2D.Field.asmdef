@@ -1,0 +1,19 @@
+{
+    "name": "Test2D.Field",
+    "rootNamespace": "Test2D.Field",
+    "references": [
+        "RPGFramework.DI",
+        "RPGFramework.Field",
+        "RPGFramework.Field.SharedTypes",
+        "RPGFramework.Hashing"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
