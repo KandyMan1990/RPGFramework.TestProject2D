@@ -452,4 +452,59 @@ MonoBehaviour:
     m_Description: Whether music was playing when a use case asked (item 35)
     m_DefaultValue: 0
     m_ElementDefaults: []
-  m_LastVariableId: 40
+  - m_Id: 41
+    m_Name: UseCaseStandX
+    m_Bank: 1
+    m_Width: 9
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 40
+    m_Description: Where GET_ENTITY_POSITION stored an entity across, for the 2D test project's use cases
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 42
+    m_Name: UseCaseStandY
+    m_Bank: 1
+    m_Width: 9
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 44
+    m_Description: Where GET_ENTITY_POSITION stored an entity up, for the 2D test project's use cases
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 43
+    m_Name: UseCaseStandZ
+    m_Bank: 1
+    m_Width: 9
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 48
+    m_Description: Where GET_ENTITY_POSITION stored an entity's depth, for the 2D test project's use cases
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 44
+    m_Name: UseCaseStandDirection
+    m_Bank: 1
+    m_Width: 9
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 52
+    m_Description: Which way GET_ENTITY_DIRECTION stored an entity faces, for the 2D test project's use cases
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 45
+    m_Name: UseCaseInRange
+    m_Bank: 1
+    m_Width: 0
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 35
+    m_Description: Whether IS_ENTITY_IN_RANGE found the player in range, for the 2D test project's use cases
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  m_LastVariableId: 45
