@@ -12,6 +12,8 @@ namespace Test2D.PlayModeTests
         internal const string AUDIO   = "UseCaseAudio";
         internal const string SCREEN  = "UseCaseScreen";
         internal const string MOVEMENT = "UseCaseMovement";
+        internal const string ANIMATION = "UseCaseAnimation";
+        internal const string ANIMATION_TILES = "UseCaseAnimationTiles";
         internal const string MOVEMENT_TILES = "UseCaseMovementTiles";
 
         /// <summary>The field loaded, or null while none is, or the next is loading before the last has gone.</summary>
