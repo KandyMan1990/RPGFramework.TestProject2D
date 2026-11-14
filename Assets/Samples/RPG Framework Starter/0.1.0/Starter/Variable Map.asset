@@ -441,4 +441,15 @@ MonoBehaviour:
     m_Description: The answer a use case asked for (the 2D project use cases, item 35)
     m_DefaultValue: 0
     m_ElementDefaults: []
-  m_LastVariableId: 39
+  - m_Id: 40
+    m_Name: UseCaseMusicPlaying
+    m_Bank: 1
+    m_Width: 0
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 34
+    m_Description: Whether music was playing when a use case asked (item 35)
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  m_LastVariableId: 40

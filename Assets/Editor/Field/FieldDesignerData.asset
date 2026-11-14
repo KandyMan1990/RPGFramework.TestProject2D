@@ -45,5 +45,10 @@ MonoBehaviour:
       LocationName: 
       ExitTransition: 
       EntryTransition: 
-    m_ExportedLayoutHash: 4525901604599559056
+    - Prefab: {fileID: 5008870967991959125, guid: d64e78a5edaac4523a84b303e5517079, type: 3}
+      LocalisationSheets: []
+      LocationName: 
+      ExitTransition: 
+      EntryTransition: 
+    m_ExportedLayoutHash: 7363880430752171520
     m_ExportedOpCodeHash: 2837074586261867772

@@ -8,13 +8,14 @@ namespace Test2D.PlayModeTests
     /// </summary>
     internal static class UseCaseProject
     {
-        internal const string GAME_INSTALLER = "Assets/Samples/RPG Framework Starter/0.1.0/Starter/Starter Global Installer.asset";
+        internal const string GAME_INSTALLER = "Assets/Global Installer.asset";
         internal const string ACTIONS        = "Assets/Samples/RPG Framework Starter/0.1.0/Starter/Starter Input Actions.inputactions";
         internal const string CONFIRM        = "Player/Confirm";
         internal const string BATTLE_CANCEL  = "Player/Cancel";
         internal const string BATTLE_RESULT  = "UseCaseBattleResult";
         internal const string COUNTDOWN_LEFT = "UseCaseCountdownLeft";
         internal const string ANSWER         = "UseCaseAnswer";
+        internal const string MUSIC_PLAYING  = "UseCaseMusicPlaying";
         internal const string GAME_OVER_FIELD = "GameOver";
 
         internal static Vector3 Up => Vector3.forward;

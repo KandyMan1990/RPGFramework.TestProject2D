@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/RPG Framework Starter/0.1.0/Starter/Entry Point.unity
-    guid: 9f064b0e269904f29b9596893efbcc36
+    path: Assets/Entry Point.unity
+    guid: d60802c20740348bfa1b5ad54c1bcd5a
   - enabled: 1
     path: Assets/Samples/RPG Framework Starter/0.1.0/Starter/SplashScreen/SplashScreenModule.unity
     guid: 67bdbbcdd509b4acc98d2c9fef962053
