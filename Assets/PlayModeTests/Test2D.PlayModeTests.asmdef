@@ -11,6 +11,7 @@
         "RPGFramework.Hashing",
         "RPGFramework.Menu.SharedTypes",
         "RPGFramework.ModuleRouter",
+        "Unity.Cinemachine",
         "Unity.InputSystem",
         "Unity.InputSystem.TestFramework",
         "UnityEngine.TestRunner"
