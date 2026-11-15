@@ -17,6 +17,7 @@ namespace Test2D.PlayModeTests
         internal const string ANSWER         = "UseCaseAnswer";
         internal const string MUSIC_PLAYING  = "UseCaseMusicPlaying";
         internal const string GAME_OVER_FIELD = "GameOver";
+        internal const string STARTING_FIELD  = "SampleField";
         internal const string STAND_X         = "UseCaseStandX";
         internal const string STAND_Y         = "UseCaseStandY";
         internal const string STAND_Z         = "UseCaseStandZ";
