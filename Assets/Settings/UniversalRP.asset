@@ -120,7 +120,7 @@ MonoBehaviour:
   m_PrefilterWriteRenderingLayers: 1
   m_PrefilterHDROutput: 1
   m_PrefilterAlphaOutput: 1
-  m_PrefilterSSAOKeywords: 0
+  m_PrefilterSSAOKeywords: 1
   m_PrefilterDBufferMRT1: 1
   m_PrefilterDBufferMRT2: 1
   m_PrefilterDBufferMRT3: 1
@@ -138,8 +138,8 @@ MonoBehaviour:
   m_PrefilterReflectionProbeBoxProjection: 1
   m_PrefilterReflectionProbeAtlas: 1
   m_PrefilterPointSamplingUpsampling: 1
-  m_PrefilterExposure: 0
-  m_PrefilterVolumetricFog: 0
+  m_PrefilterExposure: 1
+  m_PrefilterVolumetricFog: 1
   m_Light2DPrefilteringMode: 2
   m_Light2DKeptVariantCombos:
   - USE_ADDITIVE_BLENDING,USE_SHAPE_LIGHT_TYPE_0
