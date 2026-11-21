@@ -393,7 +393,7 @@ MonoBehaviour:
     m_Count: 1
     m_Fields: []
     m_LastFieldId: 0
-    m_Offset: 88
+    m_Offset: 92
     m_Description: 'Multiplies every field''s rate of random battles: 0.5 half as often, 0 none. Its default is a new game''s'
     m_DefaultValue: 1065353216
     m_ElementDefaults: []
@@ -529,4 +529,56 @@ MonoBehaviour:
     m_Description: 'The characters a second dialogue types at with the player''s message speed at its fastest. Only its default is used: the game''s own, no slower than the slowest'
     m_DefaultValue: 1112628265
     m_ElementDefaults: []
-  m_LastVariableId: 47
+  - m_Id: 48
+    m_Name: Party
+    m_Bank: 0
+    m_Width: 2
+    m_Count: 4
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 85
+    m_Description: 'Who is in the party, in order: each a Roster record''s index, 255 for an empty slot, slot 0 the leader. Its count is the game''s party size, and its defaults a new game''s party'
+    m_DefaultValue: 255
+    m_ElementDefaults:
+    - m_Index: 0
+      m_Field: 
+      m_FieldIndex: 0
+      m_Value: 0
+  - m_Id: 49
+    m_Name: Roster
+    m_Bank: 0
+    m_Width: 0
+    m_Count: 3
+    m_Fields:
+    - m_Id: 1
+      m_Name: Character
+      m_Width: 8
+      m_Count: 1
+      m_DefaultValue: 0
+    - m_Id: 2
+      m_Name: Joined
+      m_Width: 0
+      m_Count: 1
+      m_DefaultValue: 0
+    m_LastFieldId: 2
+    m_Offset: 96
+    m_Description: 'Every playable character, a record each: who it is, whether they have joined, and the game''s own fields beside them. Its count is the game''s, and its defaults a new game''s'
+    m_DefaultValue: 0
+    m_ElementDefaults:
+    - m_Index: 0
+      m_Field: Character
+      m_FieldIndex: 0
+      m_Value: 10734228619689067006
+    - m_Index: 1
+      m_Field: Character
+      m_FieldIndex: 0
+      m_Value: 1577200152700727606
+    - m_Index: 2
+      m_Field: Character
+      m_FieldIndex: 0
+      m_Value: 15490715133577965211
+    - m_Index: 0
+      m_Field: Joined
+      m_FieldIndex: 0
+      m_Value: 1
+  m_LastVariableId: 49
