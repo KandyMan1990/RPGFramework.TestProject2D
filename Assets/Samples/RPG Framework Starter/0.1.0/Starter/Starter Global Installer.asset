@@ -51,6 +51,7 @@ MonoBehaviour:
   m_SystemSoundConfig: {fileID: 11400000, guid: 89c56fea57cbe4a45a5d4931bd85bbc2, type: 2}
   m_DialogueWindowUIProvider: {fileID: 11400000, guid: af7360a2d35934d8ab83fdf29e2b64ae, type: 2}
   m_VariableMap: {fileID: 11400000, guid: f84083825a0db41949a50a8ab1ce5a38, type: 2}
+  m_CharacterDatabase: {fileID: 11400000, guid: 72e9690b5a4184aac8dabb1a2080248b, type: 2}
   m_TransitionConfig: {fileID: 11400000, guid: 18a059db258bd414cbbe25c8154e13d0, type: 2}
   m_TransitionDatabase: {fileID: 11400000, guid: 64668a1fc1f6b462f892f73fec94c548, type: 2}
   m_ModuleRouterConfig: {fileID: 11400000, guid: 1b2612e96652347a4b1d29a23f486ab4, type: 2}

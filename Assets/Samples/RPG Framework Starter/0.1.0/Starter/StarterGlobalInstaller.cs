@@ -51,6 +51,9 @@ namespace StarterSample
         private VariableMapAsset m_VariableMap;
 
         [SerializeField]
+        private CharacterDatabase m_CharacterDatabase;
+
+        [SerializeField]
         private TransitionConfig m_TransitionConfig;
 
         [SerializeField]
@@ -88,6 +91,7 @@ namespace StarterSample
             container.BindSingletonFromInstance<IMemoryServiceArgs>(m_VariableMap);
             container.BindSingletonFromInstance<ITempMemoryArgs>(m_VariableMap);
             container.BindSingletonFromInstance<IVariableMap>(m_VariableMap);
+            container.BindSingletonFromInstance<ICharacterDatabase>(m_CharacterDatabase);
 
             container.BindSingleton<IModuleDatabase, StarterModuleDatabase>();
             container.BindSingleton<ISceneDatabase, StarterSceneDatabase>();
