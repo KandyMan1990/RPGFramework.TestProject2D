@@ -581,4 +581,26 @@ MonoBehaviour:
       m_Field: Joined
       m_FieldIndex: 0
       m_Value: 1
-  m_LastVariableId: 49
+  - m_Id: 50
+    m_Name: UseCasePartySlot
+    m_Bank: 1
+    m_Width: 2
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 64
+    m_Description: The party slot UseCasePartySlot's GET_PARTY_SLOT stores
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  - m_Id: 51
+    m_Name: UseCaseCharacterJoined
+    m_Bank: 1
+    m_Width: 0
+    m_Count: 1
+    m_Fields: []
+    m_LastFieldId: 0
+    m_Offset: 65
+    m_Description: Whether UseCaseCharacterJoins' GET_CHARACTER_JOINED found its character joined
+    m_DefaultValue: 0
+    m_ElementDefaults: []
+  m_LastVariableId: 51

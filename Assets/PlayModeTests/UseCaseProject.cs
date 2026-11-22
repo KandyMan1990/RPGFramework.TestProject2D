@@ -4,7 +4,7 @@ namespace Test2D.PlayModeTests
 {
     /// <summary>
     /// What differs between the two projects' use cases: the game's installer and actions, the variables their scripts
-    /// store into, and which way is up.
+    /// store into, the characters they name, and which way is up.
     /// </summary>
     internal static class UseCaseProject
     {
@@ -23,6 +23,11 @@ namespace Test2D.PlayModeTests
         internal const string STAND_Z         = "UseCaseStandZ";
         internal const string STAND_DIRECTION = "UseCaseStandDirection";
         internal const string IN_RANGE        = "UseCaseInRange";
+        internal const string PARTY_SLOT         = "UseCasePartySlot";
+        internal const string CHARACTER_JOINED   = "UseCaseCharacterJoined";
+        internal const string FIRST_CHARACTER    = "TestCharacterTerra";
+        internal const string SECOND_CHARACTER   = "TestCharacterLocke";
+        internal const string UNJOINED_CHARACTER = "TestCharacterBartz";
 
         // Which way an entity faces, as GET_ENTITY_DIRECTION reads it: a 2D turn is anticlockwise from up the screen.
         internal const float FACING_RIGHT  = -90f;
