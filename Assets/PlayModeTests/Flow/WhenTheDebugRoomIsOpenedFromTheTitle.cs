@@ -15,7 +15,7 @@ namespace Test2D.PlayModeTests.Flow
     internal sealed class WhenTheDebugRoomIsOpenedFromTheTitle
     {
         private const string DEBUG_ROOM_SCENE = "DebugRoomModule";
-        private const string DEBUG_ROOM       = "DebugRoomBtn";
+        private const string DEBUG_ROOM       = "DebugRoom";
 
         private UseCaseInput m_Input;
 

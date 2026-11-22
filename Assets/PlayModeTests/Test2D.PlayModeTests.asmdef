@@ -9,6 +9,7 @@
         "RPGFramework.Field",
         "RPGFramework.Field.SharedTypes",
         "RPGFramework.Hashing",
+        "RPGFramework.Menu",
         "RPGFramework.Menu.SharedTypes",
         "RPGFramework.ModuleRouter",
         "Unity.Cinemachine",

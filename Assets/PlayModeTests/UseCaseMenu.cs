@@ -1,5 +1,6 @@
 using System.Collections;
 using NUnit.Framework;
+using RPGFramework.Menu.UI;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -11,8 +12,9 @@ namespace Test2D.PlayModeTests
     /// </summary>
     internal static class UseCaseMenu
     {
-        internal const string NEW_GAME  = "NewGameBtn";
-        internal const string LOAD_GAME = "LoadGameBtn";
+        // The title's entries, by the command New Game runs and the menu Load Game opens.
+        internal const string NEW_GAME  = "NewGame";
+        internal const string LOAD_GAME = "Load";
 
         internal static VisualElement Focused()
         {
@@ -32,7 +34,24 @@ namespace Test2D.PlayModeTests
             return null;
         }
 
-        internal static string FocusedName => Focused()?.name;
+        /// <summary>
+        /// What has the cursor: an entry by the command it runs or the menu it opens, as its layout names them, and
+        /// anything else by its name.
+        /// </summary>
+        internal static string FocusedName
+        {
+            get
+            {
+                VisualElement focused = Focused();
+
+                if (focused is MenuEntry entry && (!string.IsNullOrEmpty(entry.Command) || !string.IsNullOrEmpty(entry.Opens)))
+                {
+                    return string.IsNullOrEmpty(entry.Command) ? entry.Opens : entry.Command;
+                }
+
+                return focused?.name;
+            }
+        }
 
         internal static void Submit()
         {
