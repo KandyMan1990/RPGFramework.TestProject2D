@@ -9598,7 +9598,7 @@ MonoBehaviour:
     m_Scripts:
     - m_Type: 0
       m_Name: 
-      m_Text: 'SET_PLAYER_ENTITY
+      m_Text: 'SET_PARTY_CHARACTER TestCharacterTerra
 
         VISIBILITY true
 

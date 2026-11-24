@@ -6,7 +6,8 @@ using UnityEngine.TestTools;
 namespace Test2D.PlayModeTests.Movement
 {
     /// <summary>
-    /// UseCaseTakesControl on tiles: talked to, `SET_PLAYER_ENTITY`, then right held: it walks, and `Player0` stays.
+    /// UseCaseTakesControl on tiles, playing a character outside the party and shown by its Default script: talked to,
+    /// `SET_PARTY` that character alone, so it leads, then right held: it walks, and `Player0` stays.
     /// </summary>
     [PrebuildSetup("Test2D.PlayModeTests.Editor.UseCaseBundles")]
     internal sealed class WhenAnotherCharacterIsMadeThePlayerOnTiles
